@@ -2,10 +2,12 @@
 #include <string>
 #include <iomanip>
 using namespace std;
-using ll = long long;
 
 int main() {
-  int n;
-  cin >> n;
-  cout << hex << n << '\n';
+  double d;
+  cin >> d;
+  
+  cout << fixed;
+  cout.precision(11);
+  cout << d << '\n';
 }

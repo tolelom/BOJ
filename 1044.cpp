@@ -5,7 +5,7 @@ using namespace std;
 using ll = long long;
 
 int main() {
-  int n;
-  cin >> n;
-  cout << hex << n << '\n';
+  ll a;
+  cin >> a;
+  cout << a + 1 << '\n';
 }

@@ -4,5 +4,9 @@ using namespace std;
 int main() {
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
-    cout << "Hello\n";
+    
+    int h, m;
+    char c;
+    cin >> h >> c >> m;
+    cout << h << c << m << '\n';
 }

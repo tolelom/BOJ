@@ -1,16 +1,11 @@
 #include <iostream>
-#include <algorithm>
+#include <string>
+#include <iomanip>
 using namespace std;
+using ll = long long;
 
 int main() {
-	int n;
-	cin >> n;
-	int *arr = new int[n];
-
-	for (int i = 0; i < n; i++) {
-		cin >> arr[i];
-	}
-	sort(arr, arr + n);
-	cout << arr[0] * arr[n - 1];
-	//system("PAUSE");
+  int c;
+  cin >> c;
+  cout << (char)c << '\n';
 }
